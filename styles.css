@@ -353,7 +353,9 @@
 }
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx) {
-  background: url("assets/sh@2x.webp") center center/cover no-repeat;
+  .main {
+    background: url("assets/sh@2x.webp") center center/cover no-repeat;
+  }
 }
 .main__greeting {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
