@@ -318,12 +318,7 @@
   width: 108px;
   height: 27px;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
 }
-.no-webp .logo { background-image: url("./assets/logo.png"); }
-.webp .logo { background-image: url("./assets/logo.webp"); }
 .logo__ya {
   display: block;
   position: absolute;
