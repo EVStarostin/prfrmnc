@@ -316,11 +316,12 @@
   width: 108px;
   height: 27px;
   position: relative;
-  background-image: url("./assets/webp/logo.webp");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
 }
+.no-webp .logo { background-image: url("./assets/logo.png"); }
+.webp .logo { background-image: url("./assets/webp/logo.webp"); }
 .logo__ya {
   display: block;
   position: absolute;
@@ -347,8 +348,9 @@
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/webp/sh.webp") center center/cover no-repeat;
 }
+.no-webp .main { background: url("assets/sh.png") center center/cover no-repeat; }
+.webp .main { background: url("assets/webp/sh.webp") center center/cover no-repeat; }
 .main__greeting {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 6px;
@@ -604,9 +606,8 @@ html {
 .weather__item_outside {
   padding-right: 31px;
 }
-.weather__item_cloud-drizzle {
-  background: url("assets/webp/cloud-drizzle.webp") 100% 70%/26px no-repeat;
-}
+.no-webp .weather__item_cloud-drizzle { background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat; }
+.webp .weather__item_cloud-drizzle { background: url("assets/webp/cloud-drizzle.webp") 100% 70%/26px no-repeat; }
 .stats {
   opacity: 0;
 }
