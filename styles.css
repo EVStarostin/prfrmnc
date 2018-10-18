@@ -3,8 +3,8 @@
   font-display: swap;
 	font-style: normal;
   font-weight: bold;
-	src:  local('PT Sans Bold'), url("fonts/PTS75FW.woff2") format("woff2"),
-  url("fonts/PTS75FW.woff") format("woff");
+	src:  local('PT Sans Bold'), url("fonts/min/pts75f_w.woff2") format("woff2"),
+  url("fonts/min/pts75f_w.woff") format("woff");
   unicode-range: U+0410-044F, U+0020, U+002C, U+0021; 
 }
 
