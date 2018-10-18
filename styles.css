@@ -2,9 +2,10 @@
   font-family: 'PT Sans';
   font-display: swap;
 	font-style: normal;
-	font-weight: bold;
+  font-weight: bold;
 	src:  local('PT Sans Bold'), url("fonts/PTS75FW.woff2") format("woff2"),
-        url("fonts/PTS75FW.woff") format("woff");
+  url("fonts/PTS75FW.woff") format("woff");
+  unicode-range: U+0410-044F, U+002C, U+0021; 
 }
 
 @font-face {
@@ -13,6 +14,7 @@
 	font-weight: bold;
 	src:  local('PT Sans Narrow Bold'), url("fonts/PTN77FW.woff2") format("woff2"),
         url("fonts/PTN77FW.woff") format("woff");
+  unicode-range: U+0030-0039, U+002B, U+002D; 
 }
 
 .adjust-bar {
