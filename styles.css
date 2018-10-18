@@ -1,24 +1,10 @@
 @font-face {
   font-family: 'PT Sans';
   font-display: swap;
-  src:  local('PT Sans'), url("fonts/PTS55FW.woff2") format("woff2"),
-        url("fonts/PTS55FW.woff") format("woff");
- }
-
- @font-face {
-  font-family: 'PT Sans';
-  font-display: swap;
 	font-style: normal;
 	font-weight: bold;
 	src:  local('PT Sans Bold'), url("fonts/PTS75FW.woff2") format("woff2"),
         url("fonts/PTS75FW.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'PT Sans Narrow';
-  font-display: swap;
-	src:  local('PT Sans Narrow'), url("fonts/PTN57FW.woff2") format("woff2"),
-        url("fonts/PTN57FW.woff") format("woff");
 }
 
 @font-face {
