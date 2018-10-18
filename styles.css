@@ -355,6 +355,12 @@
 (min-resolution: 2dppx) {
   background: url("assets/sh@2x.webp") center center/cover no-repeat;
 }
+.main__greeting {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 6px;
+  font-size: 27px;
+  font-weight: 700;
+}
 .main__info {
   width: 61.585%;
   padding-top: 20px;
