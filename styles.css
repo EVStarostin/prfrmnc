@@ -3,8 +3,8 @@
   font-display: swap;
 	font-style: normal;
   font-weight: bold;
-	src:  local('PT Sans Bold'), url("fonts/min/pts75f_w.woff2") format("woff2"),
-  url("fonts/min/pts75f_w.woff") format("woff");
+	src:  local('PT Sans Bold'), url("fonts/pts75f_w.woff2") format("woff2"),
+        url("fonts/pts75f_w.woff") format("woff");
   unicode-range: U+0410-044F, U+0020, U+002C, U+0021; 
 }
 
@@ -12,8 +12,8 @@
   font-family: 'PT Sans Narrow';
   font-display: swap;
 	font-weight: bold;
-	src:  local('PT Sans Narrow Bold'), url("fonts/min/ptn77f_w.woff2") format("woff2"),
-        url("fonts/min/ptn77f_w.woff") format("woff");
+	src:  local('PT Sans Narrow Bold'), url("fonts/ptn77f_w.woff2") format("woff2"),
+        url("fonts/ptn77f_w.woff") format("woff");
   unicode-range: U+0030-0039, U+0020, U+002B, U+002D; 
 }
 
@@ -323,7 +323,7 @@
   background-size: cover;
 }
 .no-webp .logo { background-image: url("./assets/logo.png"); }
-.webp .logo { background-image: url("./assets/webp/logo.webp"); }
+.webp .logo { background-image: url("./assets/logo.webp"); }
 .logo__ya {
   display: block;
   position: absolute;
@@ -352,7 +352,7 @@
   justify-content: space-between;
 }
 .no-webp .main { background: url("assets/sh.png") center center/cover no-repeat; }
-.webp .main { background: url("assets/webp/sh.webp") center center/cover no-repeat; }
+.webp .main { background: url("assets/sh.webp") center center/cover no-repeat; }
 .main__greeting {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 6px;
@@ -609,7 +609,7 @@ html {
   padding-right: 31px;
 }
 .no-webp .weather__item_cloud-drizzle { background: url("assets/cloud-drizzle.png") 100% 70%/26px no-repeat; }
-.webp .weather__item_cloud-drizzle { background: url("assets/webp/cloud-drizzle.webp") 100% 70%/26px no-repeat; }
+.webp .weather__item_cloud-drizzle { background: url("assets/cloud-drizzle.webp") 100% 70%/26px no-repeat; }
 .stats {
   opacity: 0;
 }
