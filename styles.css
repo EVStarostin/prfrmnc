@@ -368,7 +368,7 @@
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
   .main {
-    background-image: url("assets/sh@2x.png");
+    background: url("assets/sh.png") center center/cover no-repeat;
   }
 }
 @media 
@@ -376,7 +376,7 @@
 (min-resolution: 3dppx),
 (min-resolution: 288dpi) {
   .main {
-    background-image: url("assets/sh@3x.png");
+    background: url("assets/sh.png") center center/cover no-repeat;
   }
 }
 .main__greeting {
