@@ -363,7 +363,7 @@
   justify-content: space-between;
   background: url("assets/sh.png") center center/cover no-repeat;
 }
-/* @media 
+@media 
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
@@ -371,7 +371,7 @@
     background-image: url("assets/sh@2x.png");
   }
 }
-@media 
+/* @media 
 (-webkit-min-device-pixel-ratio: 3),
 (min-resolution: 3dppx),
 (min-resolution: 288dpi) {
