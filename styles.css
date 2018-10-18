@@ -363,12 +363,12 @@
   justify-content: space-between;
   background: url("assets/sh.png") center center/cover no-repeat;
 }
-@media 
+/* @media 
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
   .main {
-    background: url("assets/sh@2x.png") center center/cover no-repeat;
+    background-image: url("assets/sh@2x.png");
   }
 }
 @media 
@@ -376,9 +376,9 @@
 (min-resolution: 3dppx),
 (min-resolution: 288dpi) {
   .main {
-    background: url("assets/sh@3x.png") center center/cover no-repeat;
+    background-image: url("assets/sh@3x.png");
   }
-}
+} */
 .main__greeting {
   margin-top: 6px;
   font-size: 27px;
