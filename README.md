@@ -13,6 +13,7 @@
 - [x] из файла index.html удален ненужный код:  
   - [x] удален код подгрузки баннера;  
   - [x] удалены комментарии;  
+- [x] из файла styles.css для селектор .panel_lamp удалил свойство background-image в формате base64;  
 - [x] в тег скрипт добавлено свойство async для асинхронной загрузки js;  
 - [x] реализованна асинхронная загрузка css стилей, критичные стили добавлены в html
   `<link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'">`
