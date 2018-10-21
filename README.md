@@ -1,3 +1,5 @@
+На https://shri-performance.ru/ мой сайт http://evstarostin.github.io/prfrmnc/ набирал **704.15** баллов.  
+  
 - [x] оптимизирована графика: 
   - [x] картинки jpeg и png сконвертированны в формат webp;  
   - [x] svg минифицированны;  
@@ -19,4 +21,3 @@
   `<link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'">`
 
 Описывал проделанные пункты для оптимизации спустя какое-то время после выполнения, поэтому что-то мог упустить.  
-На https://shri-performance.ru/ мой сайт http://evstarostin.github.io/prfrmnc/ набирал **704.15** баллов.  
