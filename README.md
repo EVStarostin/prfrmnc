@@ -1,4 +1,4 @@
-На https://shri-performance.ru/ мой сайт http://evstarostin.github.io/prfrmnc/ набрал **704.15** баллов (старый топ).  
+На https://shri-performance.ru/ мой сайт http://evstarostin.github.io/prfrmnc/ набрал **704.15** баллов в старом топе и **579.01** в новом.     
   
 ### Для оптимизации были выполнены следующие действия:  
 - [x] оптимизирована графика: 
